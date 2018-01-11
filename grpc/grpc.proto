@@ -1,0 +1,27 @@
+syntax = "proto3";
+
+option java_multiple_files = true;
+option java_package = "com.manigandand.grpc";
+option java_outer_classname = "GrpcProto";
+
+package grpc;
+
+message Void {}
+
+message Message {
+  string text = 1;
+}
+
+message Session {
+  int32 id = 1;
+  string status = 2;
+}
+
+service Ironman {
+  // RPC Calls for Ironman
+  rpc Ping (Message) returns (Message) {};
+}
+
+service Batman {
+  rpc IronManCallback(Session) returns (Void);
+}
