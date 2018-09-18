@@ -14,6 +14,9 @@ pip install grpcio grpcio-tools
 go get -u google.golang.org/grpc
 go get -u github.com/golang/protobuf/protoc-gen-go
 
+# Node
+npm install grpc_tools_node_protoc_ts --save-dev
+
 
 
 ```
