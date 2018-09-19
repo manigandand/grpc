@@ -6,6 +6,9 @@ https://grpc.io/
 ```
 pipenv shell
 brew install protobuf
+OR
+https://github.com/protocolbuffers/protobuf/blob/master/src/README.md
+https://askubuntu.com/questions/1072683/how-can-i-install-protoc-on-ubuntu-16-04
 sudo apt-get update
 sudo apt-get install protobuf-compiler
 
