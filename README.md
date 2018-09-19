@@ -6,6 +6,8 @@ https://grpc.io/
 ```
 pipenv shell
 brew install protobuf
+sudo apt-get update
+sudo apt-get install protobuf-compiler
 
 # Python
 pip install grpcio grpcio-tools
